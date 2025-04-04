@@ -9,11 +9,11 @@ This application allows to track all arrivals to an airport in an interval of ti
 ## Instalation
 1. Clone the repo into your machine
    ```bash
-   git@github.com:atexis-digital/technical-test.git
+   git clone https://github.com/atexis-digital/technical_test.git
    ```
 2. Change directory into the project folder
     ```
-    cd tech_test
+    cd technical_test
     ```
 3. Build images 
    ```

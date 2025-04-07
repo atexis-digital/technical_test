@@ -7,6 +7,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class OpenskyExternalApiService
 {
+    const FLIGHTS_ARRIVAL_ENDPOINT = "/api/flights/arrival";
 
     /**
      * @throws GuzzleException
@@ -17,12 +18,15 @@ class OpenskyExternalApiService
         int    $to
     )
     {
-
+        // TODO call API and return json_decode
 
     }
 
     public function getClient(): Client
     {
-
+        $client = new Client([
+            'base_uri' => 'https://opensky-network.org'
+        ]);
+        return $client;
     }
 }

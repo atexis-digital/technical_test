@@ -9,4 +9,3 @@ apt install zip -y
 
 composer install
 
-/usr/local/sbin/php-fpm --nodaemonize --allow-to-run-as-root 2>&1
